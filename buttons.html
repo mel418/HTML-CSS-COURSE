@@ -13,13 +13,18 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
+        transition: opacity 0.15s;
     }
 
     .subscribe:hover {
-        opacity: 0.8;
+        opacity: 0.5;
         /*box-shadow: 2px -3px 10px rgba(0, 0, 0, 0.5);*/
     }
 
+    /*.subscribe:active {
+        background-color: white;
+        color: black;
+    } */
 
     .join {
         background-color: white;
@@ -32,12 +37,16 @@
         border-radius: 2px;
         cursor: pointer;
         margin-right: 8px;
-
+        transition: background-color 0.15s, color 0.15s;
     }
 
     .join:hover {
         background-color: rgb(6, 95, 212);
         color: white;
+    }
+
+    .join:active {
+        opacity: 0.7;
     }
 
     .tweet {
@@ -49,6 +58,8 @@
         border-radius: 18px;
         font-weight: bold;
         font-size: 15px;
+        cursor: pointer;
+        transition: box-shadow 0.15s;
     }
 
     .tweet:hover {
