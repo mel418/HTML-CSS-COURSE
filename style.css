@@ -74,3 +74,21 @@
 a {
     margin-right: 8px;
 }
+
+.uber {
+    color: white;
+    background-color: black;
+    cursor: pointer;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    transition: 0.15s;
+}
+
+.uber:hover {
+    opacity: 0.8;
+}
