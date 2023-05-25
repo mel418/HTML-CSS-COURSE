@@ -1,0 +1,105 @@
+h1 {
+    margin-bottom: 5px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.box {
+    display: block;
+}
+
+.inline-p {
+    width: 225px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.line-button {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.google-img {
+    width: 200px;
+    display: block;
+    margin-left: 30px;
+}
+
+.google-bar {
+    border-radius: 15px;
+    border-width: 1px;
+    width: 250px;
+    height: 25px;
+    padding-left: 10px;
+    box-shadow: 1px 1px .5px rgba(0, 0, 0, 0.2);
+    outline: none;
+}
+
+.google-bar::placeholder {
+    font-size: 10px;  
+}
+
+
+.first-name {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    width: 100px;
+}
+
+.email {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    width: 215px;
+}
+
+.sign-up {
+    width: 225px;
+    padding: 5px;
+    background-color: rgb(50, 85, 255);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.uber {
+    display: block;
+    margin-bottom: 10px;
+    background-color: rgb(233, 233, 233);
+    border: none;
+    height: 40px;
+    width: 250px;
+    padding-left: 10px;
+}
+
+.uber::placeholder {
+    color: rgb(95, 95, 95);
+    font-size: 12px;
+}
+
+.request {
+    color: white;
+    background-color: black;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.schedule {
+    background-color: rgb(233, 233, 233);
+    border: none;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: 12px;
+}
