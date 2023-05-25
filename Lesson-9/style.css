@@ -1,0 +1,137 @@
+.arial {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.red {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+}
+
+.green {
+    background-color: green;
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+}
+
+.border-wrap {
+    border: solid;
+    width: 225px;
+    border-width: 1px;
+    padding-left: 10px;
+    padding-bottom: 15px;
+}
+
+
+.yt-title {
+    color: white;
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.yt-desc {
+    color: rgb(177, 177, 177);
+    margin-top: 1px;
+}
+
+.yt-design {
+    background-color: rgb(22, 22, 22);
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    width: 375px;
+}
+
+
+
+.tweet-button {
+    color: white;
+    background-color: rgb(29, 155, 240);
+    border: none;
+    cursor: pointer;
+    font-size: 10px;
+    vertical-align: middle;
+    font-weight: bold;
+    transition: box-shadow 0.15s;
+    padding: 7px 16px;
+    border-radius: 50px;
+    transition: box-shadow 0.15s;
+    margin-right: 1px;
+}
+
+.tweet-button:hover {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.tweet-input {
+    border: none;
+    vertical-align: middle;
+    outline: none;
+    margin-left: 5px;
+}
+
+.tweet-input::placeholder {
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+}
+
+.circle {
+    width: 50px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 100px;
+    vertical-align: middle;
+}
+
+.tweet {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    padding: 10px 15px;
+    width: 300px;
+}
+
+.square {
+    width: 100px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile {
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.4);
+    width: 100px;
+    border-radius: 1px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.name {
+    font-weight: bold;
+    margin-left: 5px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 12px;
+}
+
+.friend {
+    margin-left: 5px;
+    margin-top: 1px;
+    font-size: 10px;
+    margin-bottom: 5px;
+    color: grey;
+}
+
+.add-button {
+    color: white;
+    background-color: rgb(60, 92, 255);
+    border: none;
+    border-radius: 3px;
+    padding: 5px 8px;
+    font-size: 10px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
