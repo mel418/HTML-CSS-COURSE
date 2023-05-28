@@ -1,13 +1,12 @@
-.background-color {
+body {
     background-color: black;
-}
+    height: 3000px;
+    margin: 0;
+    padding-top: 90px;
+}    
 
 p {
     font-family: 'Roboto', Arial, sans-serif;
     margin-top: 0;
     margin-bottom: 0;
-}
-
-body {
-    margin: 0;
 }
