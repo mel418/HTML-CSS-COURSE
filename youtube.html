@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="icon" href="https://i.pinimg.com/736x/91/7b/19/917b19e5af4318fc1b754a13402d37bf.jpg">
+        <link rel="icon" href="https://i.pinimg.com/736x/ae/b3/43/aeb343ec738814b576b842440a02b3ef.jpg">
         <title>
-            Mel's Youtube.com
+            Mel's YouTube
         </title>
+
         <link rel="video stylesheet" href="yt-styles\video.css">
         <link rel="header stylesheet" href="yt-styles\header.css">
         <link rel="general stylesheet" href="yt-styles\general.css">
@@ -27,31 +30,65 @@
 
                 <button class="search-button">
                     <img class="search-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/search.svg">
+                    <div class="tooltip">Search</div>
                 </button>
                 <button class="voice-search-button">
                     <img class="voice-search-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/voice-search-icon.svg">
+                    <div class="tooltip">Search with your voice</div>
                 </button> 
             </div>
             
             <div class="right-section">
                 <img class="upload-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/upload.svg">
                 
-                <img class="notifications-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg">
-                
-                
+                <div class="notifications-icon-container">
+                    <img class="notifications-icon" src="https://supersimple.dev/public/img/exercises/youtube/icons/notifications.svg">
+                    <div class="notifications-count">3</div>
+                </div>
+
                 <img class="current-user-picture" src="https://yt3.ggpht.com/Bcld4Y5Lkhzb82qoFN2b8BqPIMTnsxB_HYpySYqFsM8xtvXfK4W_jnd7znjL66xxkmC0ATIBOQ=s88-c-k-c0x00ffffff-no-rj-mo">
             </div>  
         </div>
 
         <div class="sidebar">
-            sidebar
+            <div class="sidebar-link">
+                <div class="sidebar-container">
+                    <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><g><path d="M4 21V10.08l8-6.96 8 6.96V21h-6v-6h-4v6H4z"></path></g></svg>
+                    <div>Home</div>
+                </div>
+
+            </div>
+            
+            <div class="sidebar-link">
+                <div class="sidebar-container">
+                    <svg height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 14.65v-5.3L15 12l-5 2.65zm7.77-4.33-1.2-.5L18 9.06c1.84-.96 2.53-3.23 1.56-5.06s-3.24-2.53-5.07-1.56L6 6.94c-1.29.68-2.07 2.04-2 3.49.07 1.42.93 2.67 2.22 3.25.03.01 1.2.5 1.2.5L6 14.93c-1.83.97-2.53 3.24-1.56 5.07.97 1.83 3.24 2.53 5.07 1.56l8.5-4.5c1.29-.68 2.06-2.04 1.99-3.49-.07-1.42-.94-2.68-2.23-3.25zm-.23 5.86-8.5 4.5c-1.34.71-3.01.2-3.72-1.14-.71-1.34-.2-3.01 1.14-3.72l2.04-1.08v-1.21l-.69-.28-1.11-.46c-.99-.41-1.65-1.35-1.7-2.41-.05-1.06.52-2.06 1.46-2.56l8.5-4.5c1.34-.71 3.01-.2 3.72 1.14.71 1.34.2 3.01-1.14 3.72L15.5 9.26v1.21l1.8.74c.99.41 1.65 1.35 1.7 2.41.05 1.06-.52 2.06-1.46 2.56z"></path></svg>
+                    <div>Shorts</div>
+                </div>
+               
+            </div>
+
+            <div class="sidebar-link">
+                <div class="sidebar-container">
+                    <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="M10 18v-6l5 3-5 3zm7-15H7v1h10V3zm3 3H4v1h16V6zm2 3H2v12h20V9zM3 10h18v10H3V10z"></path></svg>
+                    <div>Subscriptions</div>
+                </div>
+            </div>
+
+            <div class="sidebar-link">
+                <div class="sidebar-container">
+                    <svg enable-background="new 0 0 24 24" height="24" viewBox="0 0 24 24" width="24" focusable="false" style="pointer-events: none; display: block; width: 100%; height: 100%;"><path d="m11 7 6 3.5-6 3.5V7zm7 13H4V6H3v15h15v-1zm3-2H6V3h15v15zM7 17h13V4H7v13z"></path></svg>
+                    <div>Library</div>
+                </div>
+            </div>
         </div>
         
+
         <div class="video-grid">
             
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/3F4hGLQKuTA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7xIExzohhcj85kbdZriVBzgWdYg">
+                    <div class="video-time">9:51</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -75,6 +112,7 @@
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/iUU7xlyg3fM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8UqLRZ1Gvs_EfCJgOzrETXzn0WQ">
+                    <div class="video-time">12:57</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -98,6 +136,7 @@
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/MPd5p91oyZA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDbFSX7itVe-20isWZEiBrQQz9qwg">
+                    <div class="video-time">24:09:36</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -115,15 +154,14 @@
                             104K views &#183; 3w ago
                         </p>
                     </div> 
-                </div>   
-                
-                
-                
+                </div>         
             </div>
             
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/2jBTKgobGWw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCBwAa2_oCdXS9zdmHJAAnWxI_woQ">
+                    <div class="video-time">8:30</div>
+                    
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -147,6 +185,7 @@
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/QLqrGlVdPCw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFNct_LTzy_Fs0tGyLUyUTJ9PneQ">
+                    <div class="video-time">15:29</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">
@@ -170,6 +209,7 @@
             <div class="video-preview">
                 <div class="thumbnail-row">
                     <img class="thumbnail" src="https://i.ytimg.com/vi/UFV3txTerbs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBURHmXHotBj7h2Qc2dCRrmuvp6hg">
+                    <div class="video-time">22:04</div>
                 </div>
                 <div class="video-info-grid">
                     <div class="channel-picture">

@@ -1,5 +1,6 @@
 .thumbnail {
     width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -23,12 +24,13 @@
 }
 
 .profile-picture {
-   width: 40px; 
+   width: 36px; 
    border-radius: 100px;
 }
 
 .thumbnail-row {
     margin-bottom: 10px;
+    position: relative;
 }
 
 .video-author, .video-stats {
@@ -46,4 +48,17 @@
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 16px;
     row-gap: 40px;
+}
+
+.video-time {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    bottom: 10px;
+    right: 8px;
+
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 12px;
+    font-weight: 500;
 }
