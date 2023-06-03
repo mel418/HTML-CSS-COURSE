@@ -50,6 +50,25 @@
     row-gap: 40px;
 }
 
+@media (max-width: 900px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 901px) and (max-width:1199px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1200px) {
+    .video-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
 .video-time {
     color: white;
     background-color: rgba(0, 0, 0, 0.8);
@@ -62,3 +81,4 @@
     font-size: 12px;
     font-weight: 500;
 }
+
